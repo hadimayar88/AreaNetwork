@@ -1,4 +1,4 @@
-SB ov 1537 ev 2 rid General-0-20241116-14:42:50-24164
+SB ov 1537 ev 2 rid General-0-20241116-15:48:46-22244
 
 E # 0 t 0 m 1 ce -1 msg -1
 MC id 1 c omnetpp::cModule t areanetwork.simulations.ComputerNetwork n ComputerNetwork cm 1
@@ -68,20 +68,4 @@ ES id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n "" sm 3 sg 1 st 123.33831188269
 CL id 7 tid 6 eid 7 etid 6 c omnetpp::cMessage n "" m 3 pe -1 cid 6
 - INFO: Message Received
 
-E # 6 t 91.855518023949 m 2 ce 4 msg 5
-CM id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n "" pe -1
-BS id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n "" m 2 pe 6 sd 52.897280992474
-SH sm 2 sg 1
-ES id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n "" sm 2 sg 1 st 144.752799016423 am 3 ag 0 at 144.752799016423 pe 6
-CL id 8 tid 7 eid 8 etid 7 c omnetpp::cMessage n "" m 2 pe -1 cid 7
-- INFO: Message Received
-
-E # 7 t 123.33831188269 m 2 ce 5 msg 6
-CM id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n "" pe -1
-BS id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n "" m 2 pe 7 sd 37.244158869144
-SH sm 2 sg 1
-ES id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n "" sm 2 sg 1 st 160.582470751834 am 3 ag 0 at 160.582470751834 pe 7
-CL id 9 tid 8 eid 9 etid 8 c omnetpp::cMessage n "" m 2 pe -1 cid 8
-- INFO: Message Received
-
-SE e 0 c 10 m "The user has finished the simulation -- at t=123.33831188269s, event #7"
+SE e 0 c 10 m "The user has finished the simulation -- at t=83.200143363793s, event #5"
